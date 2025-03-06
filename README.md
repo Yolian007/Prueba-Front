@@ -23,7 +23,6 @@ Asegúrate de tener instalados los siguientes programas:
 
    ```bash
    git clone https://github.com/Yolian007/Prueba-Front.git
-   cd Prueba-Front
    ```
 
 2. **Instalar dependencias:**
@@ -48,24 +47,22 @@ Asegúrate de tener instalados los siguientes programas:
 
 ### ⚡ Ejecutar la Aplicación
 
-Para iniciar el servidor de desarrollo:
-
-```bash
-npm start
-```
-
-Esto abrirá Expo DevTools en tu navegador. Luego puedes:
-
-- Presionar `i` para ejecutar en el simulador de iOS (solo en Mac)
-- Presionar `a` para ejecutar en el emulador de Android
-- Escanear el código QR con la app Expo Go en tu dispositivo móvil
-
-En caso de no aparecer las opciones dichas anteriormente, puedes ejecutar el comando
+Para iniciar la visualización:
 
 ```bash
 npx react-native run-android
 ```
+
 El cual te ejecutara la app directamente en el emulador de Android Studio.
+
+Luego puedes:
+
+- Presionar `i` para ejecutar en el simulador de iOS (solo en Mac)
+- Presionar `a` para ejecutar en el emulador de Android
+- - Presionar `r` para recargar la app
+- Escanear el código QR con la app Expo Go en tu dispositivo móvil
+
+
 
 ### 🗂️ Estructura del Proyecto
 
@@ -120,6 +117,6 @@ expo build:ios
   ./gradlew clean
   cd ..
   ```
-- Asegúrate de que los emuladores/simuladores estén configurados correctamente.
+- Asegúrate de que los emuladores/simuladores estén configurados correctamente puedes consultar YouTube para saber como configurar las variables de entorno y demas.
 
 
